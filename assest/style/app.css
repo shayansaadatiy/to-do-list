@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    background: #39CCCC;
+    font-size: 20px;
+    padding: 14px 60px;
+}
+
+ul li:hover {
+    background: #FF4136;
+}
+
+ul li.checked {
+    background: #ff4226;
+    color: black;
+    text-decoration: line-through;
+}
+
+.header {
+    background: #ff0000;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    margin: 0 auto;
+    width: 75%;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+}
+
+.addBtn {
+    padding: 20px;
+    background: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background: darkgray;
+}

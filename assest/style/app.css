@@ -41,13 +41,19 @@ input {
     text-align: center;
 }
 
-.addBtn {
-    padding: 20px;
-    background: gray;
-    border-radius: 10px;
-    cursor: pointer;
+button {
+    padding: 15.5px 16px;
 }
 
-.addBtn:hover {
-    background: darkgray;
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    padding: 7px 12px;
+}
+
+.close:hover {
+    background: red;
+    color: white;
 }
